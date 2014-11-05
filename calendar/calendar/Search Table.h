@@ -15,5 +15,6 @@ SearchTable* createEmptySearchTable (void);
 int hashWord (char *word);
 int wordSum (char *word);
 int wordPointerSum (char *word);
+void mapEventOnSearchTable (Event *event);
 
 #endif /* defined(__calendar__Search_Table__) */

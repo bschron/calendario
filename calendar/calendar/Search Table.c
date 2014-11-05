@@ -68,3 +68,8 @@ int wordPointerSum (char *word)
     
     return wordSum(address) + wordPointerSum(word+1);
 }
+
+void mapEventOnSearchTable (Event *event)
+{
+    
+}
