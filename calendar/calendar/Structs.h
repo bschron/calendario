@@ -13,7 +13,7 @@
 
 typedef struct calendar Calendar;
 typedef struct event Event;
-
+typedef struct sTable SearchTable;
 
 struct calendar
 {
@@ -30,6 +30,11 @@ struct event
     int day;
     int month;
     int year;
+};
+
+struct sTable
+{
+    Event *table[SearchTableSize];
 };
 
 #endif

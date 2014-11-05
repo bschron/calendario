@@ -11,6 +11,7 @@
 
 #define max 100
 #define description 300
+#define SearchTableSize 661
 
 #include <stdio.h>
 #include <stdlib.h>
