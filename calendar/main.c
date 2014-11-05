@@ -6,9 +6,10 @@
 //  Copyright (c) 2014 UNIUM automação. All rights reserved.
 //
 
-#include <stdio.h>
+#include "Headers.h"
 
-int main(int argc, const char * argv[]) {
+int main(void)
+{
     // insert code here...
     printf("Hello, World!\n");
     return 0;
