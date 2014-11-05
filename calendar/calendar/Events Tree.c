@@ -46,7 +46,7 @@ Calendar* insertEvent (Calendar *calendar, int day, int month, int year, char *d
         new->day = day;
         new->month = month;
         new->year = year;
-        snprintf(new->title, max, "%s", title);
+        snprintf(new->title, Max, "%s", title);
         snprintf(new->desc, description, "%s", desc);
     }
     

@@ -10,6 +10,8 @@
 		862DC4FC1A0AB35B00EEE328 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 862DC4FB1A0AB35B00EEE328 /* main.c */; };
 		862DC5061A0AB47200EEE328 /* Events Tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 862DC5041A0AB47200EEE328 /* Events Tree.c */; };
 		862DC5091A0ABD3900EEE328 /* Search Table.c in Sources */ = {isa = PBXBuildFile; fileRef = 862DC5071A0ABD3900EEE328 /* Search Table.c */; };
+		862DC50C1A0ACA2300EEE328 /* Binary Search Tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 862DC50A1A0ACA2300EEE328 /* Binary Search Tree.c */; };
+		862DC50F1A0ACD8000EEE328 /* Support Functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 862DC50D1A0ACD8000EEE328 /* Support Functions.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +35,10 @@
 		862DC5051A0AB47200EEE328 /* Events Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Events Tree.h"; sourceTree = "<group>"; };
 		862DC5071A0ABD3900EEE328 /* Search Table.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Search Table.c"; sourceTree = "<group>"; };
 		862DC5081A0ABD3900EEE328 /* Search Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Search Table.h"; sourceTree = "<group>"; };
+		862DC50A1A0ACA2300EEE328 /* Binary Search Tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Binary Search Tree.c"; sourceTree = "<group>"; };
+		862DC50B1A0ACA2300EEE328 /* Binary Search Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Binary Search Tree.h"; sourceTree = "<group>"; };
+		862DC50D1A0ACD8000EEE328 /* Support Functions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Support Functions.c"; sourceTree = "<group>"; };
+		862DC50E1A0ACD8000EEE328 /* Support Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Support Functions.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 				862DC5051A0AB47200EEE328 /* Events Tree.h */,
 				862DC5071A0ABD3900EEE328 /* Search Table.c */,
 				862DC5081A0ABD3900EEE328 /* Search Table.h */,
+				862DC50A1A0ACA2300EEE328 /* Binary Search Tree.c */,
+				862DC50B1A0ACA2300EEE328 /* Binary Search Tree.h */,
+				862DC50D1A0ACD8000EEE328 /* Support Functions.c */,
+				862DC50E1A0ACD8000EEE328 /* Support Functions.h */,
 			);
 			path = calendar;
 			sourceTree = "<group>";
@@ -132,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				862DC50C1A0ACA2300EEE328 /* Binary Search Tree.c in Sources */,
 				862DC4FC1A0AB35B00EEE328 /* main.c in Sources */,
+				862DC50F1A0ACD8000EEE328 /* Support Functions.c in Sources */,
 				862DC5061A0AB47200EEE328 /* Events Tree.c in Sources */,
 				862DC5091A0ABD3900EEE328 /* Search Table.c in Sources */,
 			);

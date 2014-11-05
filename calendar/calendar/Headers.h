@@ -9,7 +9,7 @@
 #ifndef calendar_Headers_h
 #define calendar_Headers_h
 
-#define max 100
+#define Max 100
 #define description 300
 #define SearchTableSize 661
 
@@ -18,6 +18,10 @@
 #include <string.h>
 
 #include "Structs.h"
+#include"Events Tree.h"
+#include"Search Table.h"
+#include"Binary Search Tree.h"
+#include"Support Functions.h"
 
 
 #endif

@@ -26,7 +26,7 @@ int hashWord (char *word)
 {
     int hash = wordSum(word);
     hash -= wordPointerSum(word);
-    char number[max];
+    char number[Max];
     snprintf(number, sizeof(number)/sizeof(char), "%d", hash);
     hash *= wordPointerSum(number);
     hash = hash %SearchTableSize;
@@ -62,7 +62,7 @@ int wordPointerSum (char *word)
     void *pointer = NULL;
     pointer = word;
     
-    char address[max];
+    char address[Max];
     
     snprintf(address, sizeof(address)/sizeof(char), "%s", pointer);
     
