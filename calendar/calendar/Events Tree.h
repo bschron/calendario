@@ -1,0 +1,21 @@
+//
+//  Events Tree.h
+//  calendar
+//
+//  Created by Bruno Chroniaris on 11/5/14.
+//  Copyright (c) 2014 UNIUM automação. All rights reserved.
+//
+
+#ifndef __calendar__Events_Tree__
+#define __calendar__Events_Tree__
+
+#include "Headers.h"
+
+//Event
+Event returnEmptyEvent (void);
+Event* createEmptyEvent (void);
+/*This function will inser a event into a calendar, with the provided parameters and add this event to the hash table, if the calendar is NULL, it will create a new calendar */
+Calendar* insertEvent (Calendar *calendar, int day, int month, int year, char *desc, char *title);
+Calendar* removeEvent (Calendar *calendar, Event *event);
+
+#endif /* defined(__calendar__Events_Tree__) */

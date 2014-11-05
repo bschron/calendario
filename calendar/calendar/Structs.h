@@ -13,12 +13,11 @@
 
 typedef struct calendar Calendar;
 typedef struct event Event;
-typedef struct user User;
+
 
 struct calendar
 {
     Event *events;
-    User *users;
 };
 
 struct event
@@ -31,12 +30,6 @@ struct event
     int day;
     int month;
     int year;
-};
-
-struct user
-{
-    char name[max];
-    Calendar *calendars;
 };
 
 #endif
