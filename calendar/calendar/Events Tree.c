@@ -37,7 +37,7 @@ Calendar* insertEvent (Calendar *calendar, int day, int month, int year, char *d
     Event *new = NULL;
     if (calendar == NULL)
     {
-        //create Calendar
+        return insertEvent(createEmptyCalendar(), day, month, year, desc, title);
     }
     else
     {
@@ -94,4 +94,22 @@ Calendar* removeEvent (Calendar *calendar, Event *remove)
     free(remove);
     
     return calendar;
+}
+
+Calendar returnEmptyCalendar (void)
+{
+    Calendar empty;
+    
+    empty.events = NULL;
+    
+    return empty;
+}
+
+Calendar* createEmptyCalendar (void)
+{
+    Calendar *new = (Calendar*) malloc(sizeof(Calendar));
+    
+    *new = returnEmptyCalendar();
+    
+    return new;
 }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		862DC4FC1A0AB35B00EEE328 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 862DC4FB1A0AB35B00EEE328 /* main.c */; };
 		862DC5061A0AB47200EEE328 /* Events Tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 862DC5041A0AB47200EEE328 /* Events Tree.c */; };
+		862DC5091A0ABD3900EEE328 /* Search Table.c in Sources */ = {isa = PBXBuildFile; fileRef = 862DC5071A0ABD3900EEE328 /* Search Table.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,8 @@
 		862DC5031A0AB3A400EEE328 /* Structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Structs.h; sourceTree = "<group>"; };
 		862DC5041A0AB47200EEE328 /* Events Tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Events Tree.c"; sourceTree = "<group>"; };
 		862DC5051A0AB47200EEE328 /* Events Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Events Tree.h"; sourceTree = "<group>"; };
+		862DC5071A0ABD3900EEE328 /* Search Table.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Search Table.c"; sourceTree = "<group>"; };
+		862DC5081A0ABD3900EEE328 /* Search Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Search Table.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				862DC4FB1A0AB35B00EEE328 /* main.c */,
 				862DC5041A0AB47200EEE328 /* Events Tree.c */,
 				862DC5051A0AB47200EEE328 /* Events Tree.h */,
+				862DC5071A0ABD3900EEE328 /* Search Table.c */,
+				862DC5081A0ABD3900EEE328 /* Search Table.h */,
 			);
 			path = calendar;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			files = (
 				862DC4FC1A0AB35B00EEE328 /* main.c in Sources */,
 				862DC5061A0AB47200EEE328 /* Events Tree.c in Sources */,
+				862DC5091A0ABD3900EEE328 /* Search Table.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
